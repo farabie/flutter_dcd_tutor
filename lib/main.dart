@@ -7,6 +7,7 @@ import 'package:flutter_dcd_tutor/ui/page/hello_world.dart';
 import 'package:flutter_dcd_tutor/ui/page/padding_flut.dart';
 import 'package:flutter_dcd_tutor/ui/page/scafoldflut.dart';
 import 'package:flutter_dcd_tutor/ui/page/stateless_statefull_flut.dart';
+import 'package:flutter_dcd_tutor/ui/page/tempat_wisata.dart';
 import 'package:flutter_dcd_tutor/ui/widget/menu_belajar.dart';
 
 void main() {
@@ -63,7 +64,7 @@ class HomePage extends StatelessWidget {
               ),
               MenuBelajar(
                 name: "09. Aplikasi Tempat Wisata",
-                menuBelajar: const ScafoldFlut(),
+                menuBelajar: const TempatWisata(),
                 name2: "10. Button",
                 menuBelajar2: const ContainerFlut(),
               ),
