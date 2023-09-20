@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_dcd_tutor/ui/page/container_flut.dart';
+import 'package:flutter_dcd_tutor/ui/page/decoration_container.dart';
 import 'package:flutter_dcd_tutor/ui/page/hello_world.dart';
 import 'package:flutter_dcd_tutor/ui/page/scafoldflut.dart';
 import 'package:flutter_dcd_tutor/ui/page/stateless_statefull_flut.dart';
@@ -42,7 +44,49 @@ class HomePage extends StatelessWidget {
                 name: "03. Scaffold",
                 menuBelajar: const ScafoldFlut(),
                 name2: "04. Container",
-                menuBelajar2: const HelloWorld(),
+                menuBelajar2: const ContainerFlut(),
+              ),
+              MenuBelajar(
+                name: "05. Dekorasi Container",
+                menuBelajar: const DecorationContainerFlut(),
+                name2: "06. Padding",
+                menuBelajar2: const ContainerFlut(),
+              ),
+              MenuBelajar(
+                name: "07. Center",
+                menuBelajar: const ScafoldFlut(),
+                name2: "08. Row dan Column",
+                menuBelajar2: const ContainerFlut(),
+              ),
+              MenuBelajar(
+                name: "09. Aplikasi Tempat Wisata",
+                menuBelajar: const ScafoldFlut(),
+                name2: "10. Button",
+                menuBelajar2: const ContainerFlut(),
+              ),
+              MenuBelajar(
+                name: "11. Input Widget",
+                menuBelajar: const ScafoldFlut(),
+                name2: "12. Font",
+                menuBelajar2: const ContainerFlut(),
+              ),
+              MenuBelajar(
+                name: "13. Perbaikan Tampilan Aplikasi",
+                menuBelajar: const ScafoldFlut(),
+                name2: "14. ListView",
+                menuBelajar2: const ContainerFlut(),
+              ),
+              MenuBelajar(
+                name: "15. Expanded & Flexible",
+                menuBelajar: const ScafoldFlut(),
+                name2: "16. Navigation",
+                menuBelajar2: const ContainerFlut(),
+              ),
+              MenuBelajar(
+                name: "17. Responsive Layout",
+                menuBelajar: const ScafoldFlut(),
+                name2: "18. Menampilkan Daftar Tempat Wisata",
+                menuBelajar2: const ContainerFlut(),
               ),
             ],
           )
