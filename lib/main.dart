@@ -40,7 +40,7 @@ class HomePage extends StatelessWidget {
               ),
               MenuBelajar(
                 name: "03. Scaffold",
-                menuBelajar: StatelessStatefullFlut(),
+                menuBelajar: const ScafoldFlut(),
                 name2: "04. Container",
                 menuBelajar2: const HelloWorld(),
               ),
