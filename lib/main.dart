@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_dcd_tutor/ui/page/center_flut.dart';
+import 'package:flutter_dcd_tutor/ui/page/column_rowflut.dart';
 import 'package:flutter_dcd_tutor/ui/page/container_flut.dart';
 import 'package:flutter_dcd_tutor/ui/page/decoration_container.dart';
 import 'package:flutter_dcd_tutor/ui/page/hello_world.dart';
+import 'package:flutter_dcd_tutor/ui/page/padding_flut.dart';
 import 'package:flutter_dcd_tutor/ui/page/scafoldflut.dart';
 import 'package:flutter_dcd_tutor/ui/page/stateless_statefull_flut.dart';
 import 'package:flutter_dcd_tutor/ui/widget/menu_belajar.dart';
@@ -50,13 +53,13 @@ class HomePage extends StatelessWidget {
                 name: "05. Dekorasi Container",
                 menuBelajar: const DecorationContainerFlut(),
                 name2: "06. Padding",
-                menuBelajar2: const ContainerFlut(),
+                menuBelajar2: const PaddingFlut(),
               ),
               MenuBelajar(
                 name: "07. Center",
-                menuBelajar: const ScafoldFlut(),
+                menuBelajar: const CenterFlut(),
                 name2: "08. Row dan Column",
-                menuBelajar2: const ContainerFlut(),
+                menuBelajar2: const ColumnRowFlut(),
               ),
               MenuBelajar(
                 name: "09. Aplikasi Tempat Wisata",
