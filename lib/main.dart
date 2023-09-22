@@ -3,6 +3,7 @@ import 'package:flutter_dcd_tutor/ui/page/center_flut.dart';
 import 'package:flutter_dcd_tutor/ui/page/column_rowflut.dart';
 import 'package:flutter_dcd_tutor/ui/page/container_flut.dart';
 import 'package:flutter_dcd_tutor/ui/page/decoration_container.dart';
+import 'package:flutter_dcd_tutor/ui/page/elevated_buttonflut.dart';
 import 'package:flutter_dcd_tutor/ui/page/hello_world.dart';
 import 'package:flutter_dcd_tutor/ui/page/padding_flut.dart';
 import 'package:flutter_dcd_tutor/ui/page/scafoldflut.dart';
@@ -66,7 +67,7 @@ class HomePage extends StatelessWidget {
                 name: "09. Aplikasi Tempat Wisata",
                 menuBelajar: const TempatWisata(),
                 name2: "10. Button",
-                menuBelajar2: const ContainerFlut(),
+                menuBelajar2: const ElevatedButtonFlut(),
               ),
               MenuBelajar(
                 name: "11. Input Widget",
