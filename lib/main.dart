@@ -5,6 +5,7 @@ import 'package:flutter_dcd_tutor/ui/page/container_flut.dart';
 import 'package:flutter_dcd_tutor/ui/page/decoration_container.dart';
 import 'package:flutter_dcd_tutor/ui/page/elevated_buttonflut.dart';
 import 'package:flutter_dcd_tutor/ui/page/hello_world.dart';
+import 'package:flutter_dcd_tutor/ui/page/imageflut.dart';
 import 'package:flutter_dcd_tutor/ui/page/input_widgetflut.dart';
 import 'package:flutter_dcd_tutor/ui/page/padding_flut.dart';
 import 'package:flutter_dcd_tutor/ui/page/scafoldflut.dart';
@@ -73,8 +74,8 @@ class HomePage extends StatelessWidget {
               MenuBelajar(
                 name: "11. Input Widget",
                 menuBelajar: const InputWidgetFlut(),
-                name2: "12. Font",
-                menuBelajar2: const ContainerFlut(),
+                name2: "12. Image",
+                menuBelajar2: const ImageFlut(),
               ),
               MenuBelajar(
                 name: "13. Perbaikan Tampilan Aplikasi",
