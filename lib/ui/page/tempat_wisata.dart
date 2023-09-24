@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_dcd_tutor/ui/page/tempat_wisata/detail_screen.dart';
+import 'package:flutter_dcd_tutor/ui/page/tempat_wisata/main_screen.dart';
 
 class TempatWisata extends StatelessWidget {
   const TempatWisata({super.key});
@@ -10,6 +10,6 @@ class TempatWisata extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Wisata Bandung',
         theme: ThemeData(),
-        home: const DetailScreen());
+        home: const MainScreenWisata());
   }
 }

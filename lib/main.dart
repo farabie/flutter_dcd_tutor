@@ -97,7 +97,7 @@ class HomePage extends StatelessWidget {
                 name: "17. Responsive Layout",
                 menuBelajar: const MediaQueryFlut(),
                 name2: "18. Menampilkan Daftar Tempat Wisata",
-                menuBelajar2: const ContainerFlut(),
+                menuBelajar2: const TempatWisata(),
               ),
             ],
           )
