@@ -9,6 +9,7 @@ import 'package:flutter_dcd_tutor/ui/page/hello_world.dart';
 import 'package:flutter_dcd_tutor/ui/page/imageflut.dart';
 import 'package:flutter_dcd_tutor/ui/page/input_widgetflut.dart';
 import 'package:flutter_dcd_tutor/ui/page/listview_flut.dart';
+import 'package:flutter_dcd_tutor/ui/page/mediaqueryflut.dart';
 import 'package:flutter_dcd_tutor/ui/page/navigation_flut.dart';
 import 'package:flutter_dcd_tutor/ui/page/padding_flut.dart';
 import 'package:flutter_dcd_tutor/ui/page/scafoldflut.dart';
@@ -94,7 +95,7 @@ class HomePage extends StatelessWidget {
               ),
               MenuBelajar(
                 name: "17. Responsive Layout",
-                menuBelajar: const ScafoldFlut(),
+                menuBelajar: const MediaQueryFlut(),
                 name2: "18. Menampilkan Daftar Tempat Wisata",
                 menuBelajar2: const ContainerFlut(),
               ),
