@@ -4,6 +4,7 @@ import 'package:flutter_dcd_tutor/ui/page/column_rowflut.dart';
 import 'package:flutter_dcd_tutor/ui/page/container_flut.dart';
 import 'package:flutter_dcd_tutor/ui/page/decoration_container.dart';
 import 'package:flutter_dcd_tutor/ui/page/elevated_buttonflut.dart';
+import 'package:flutter_dcd_tutor/ui/page/expanded_flex_flut.dart';
 import 'package:flutter_dcd_tutor/ui/page/hello_world.dart';
 import 'package:flutter_dcd_tutor/ui/page/imageflut.dart';
 import 'package:flutter_dcd_tutor/ui/page/input_widgetflut.dart';
@@ -86,7 +87,7 @@ class HomePage extends StatelessWidget {
               ),
               MenuBelajar(
                 name: "15. Expanded & Flexible",
-                menuBelajar: const ScafoldFlut(),
+                menuBelajar: const ExpandedFlexFlut(),
                 name2: "16. Navigation",
                 menuBelajar2: const ContainerFlut(),
               ),
